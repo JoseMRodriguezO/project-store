@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left:O;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(138, 37, 37);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 9999;
+  border-radius: 5%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+  
+}
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 25px;
+  float: left;
+  margin-right: 10px;
+    
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+  #logo-main {
+
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 99999;
+  }
+
+   .search-item{
+    border-radius: 50px;
+  }
