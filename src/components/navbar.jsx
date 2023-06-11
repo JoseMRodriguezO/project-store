@@ -29,9 +29,11 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="search-item">
-          <input type="search" placeholder="Search..." />
+          <input type="search" placeholder="Search..." className="search-input" />
         </div>
       </div>
     </div>
   );
 };
+
+// Need to fix overlaping on logothing  and fix the placeholder for search
