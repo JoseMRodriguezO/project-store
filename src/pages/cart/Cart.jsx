@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Cart = () => {
-  return <div>SHOOOOPPPPP</div>;
+  return <div> SHOOOOPPPPP</div>;
 };
