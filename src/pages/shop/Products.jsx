@@ -20,4 +20,3 @@ export const Product = (props) => {
     </div>
   );
 };
-//Time to create a cart component
