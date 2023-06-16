@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ body {
   z-index: 9999;
   border-radius: 5%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-
+  margin-right: 10px;
   
 }
 
@@ -53,6 +54,8 @@ body {
 
   
 
-  .search-item input::placeholder {
-    font-size: 1000px;
+  .search-input input::placeholder {
+    color: green;
+    margin-right: 50px;
+    
   }

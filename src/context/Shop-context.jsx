@@ -26,3 +26,5 @@ export const ShopContextProvider = (props) => {
 
   return <ShopContext.Provider value={contextValue}>{props.children}</ShopContext.Provider>;
 };
+
+// check this when you create login for people, it will affect

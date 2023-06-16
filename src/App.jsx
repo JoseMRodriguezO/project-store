@@ -4,6 +4,7 @@ import { Navbar } from "./components/navbar";
 import { Shop } from "./pages/shop/Shop";
 import { Cart } from "./pages/cart/Cart";
 import { ShopContextProvider } from "./context/Shop-context";
+import "bootstrap/dist/css/bootstrap.css";
 function App() {
   return (
     <div className="App">
