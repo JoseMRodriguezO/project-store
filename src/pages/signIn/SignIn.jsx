@@ -2,28 +2,34 @@ import React from "react";
 import "./signin.css";
 export const SignIn = () => {
   return (
-    <div className="signin-form">
-      <h1>Signup</h1>
+    <div className="wrapper">
+      <h2>Signup</h2>
       <ul></ul>
       <form>
-        <div>
-          Email: <input className="email" type="email" />
+        <div className="input-box">
+          <label>Email:</label>
+          <input className="email" type="email" />
         </div>
-        <div>
-          Address: <input className="address" type="address" />
+        <div className="input-box">
+          <label>Address:</label>
+          <input className="address" type="text" />
         </div>
-        <div>
-          Password: <input className="password" type="password" />
+        <div className="input-box">
+          <label>Phone:</label>
+          <input className="phone" type="tel" />
         </div>
-        <div>
-          Phone: <input className="phone" type="phone" />
+        <div className="input-box">
+          <label>Password:</label>
+          <input className="password" type="password" />
         </div>
-        <div>
-          Password confirmation: <input className="password_confirmation" type="password" />
+
+        <div className="input-box">
+          <label>Password confirmation:</label>
+          <input className="password_confirmation" type="password" />
         </div>
-        <button type="submit" className="btn">
-          SignIn
-        </button>
+        <div className="input-box button">
+          <input type="submit" className="btn" value="Sign In" />
+        </div>
       </form>
     </div>
   );
